@@ -1,0 +1,28 @@
+
+<suite name="DemoSuite">
+  <test  name="Test Amazon">
+    <classes>
+      <class name="org.Test.Program1"/>
+      <methods> 
+		<include name = "setUp"/>
+		<include name = "verifytitle"/>
+		<include name = "mobiles"/>
+		<include name = "bestseller"/>
+		<include name = "teardown"/>
+	  </methods>
+	  
+	  </classes>
+	   </test>
+	  <test  name="Test OrangeHRM">
+    <classes>
+      <class name="org.Test.Orangehrm"/>
+      <methods> 
+		<include name = "launchapp"/>
+		<include name = "login"/>
+		<include name = "myinfo"/>
+		<include name = "verifymyinfo"/>
+	  </methods>
+	  </classes>
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
